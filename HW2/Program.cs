@@ -105,3 +105,6 @@ namespace HW2
             Console.WriteLine($"Номер счета {account.AccountNumber}\nБаланс {account.Balance}\nТип счета {account.TypeAccount}\n");
             account.Withdraw(1000);
             Console.WriteLine($"Номер счета {account.AccountNumber}\nБаланс {account.Balance}\nТип счета {account.TypeAccount}\n");
+        }
+    }
+}
